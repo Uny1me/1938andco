@@ -1093,7 +1093,7 @@ z-index: 1001;
 filter: alpha(opacity=100);
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 max-width: 100%;
-margin-top: -5rem;
+margin-top: -4.4rem;
 }
 
 .navbar-bg-switch {
@@ -1354,17 +1354,37 @@ z-index: 5;
   .sections {
     width: 100%!important;
   }
+.logo .logo-dark,
+.main-navigation-bg .logo .logo-dark {
+max-width: 100%;
+margin-top: -4.2rem;
+
+}
+}
+
+@media only screen and (max-width: 768px) {
+ 
+.logo .logo-dark,
+.main-navigation-bg .logo .logo-dark {
+max-width: 50%;
+margin-top: -1.8rem;
+
+}
 }
 
 @media only screen and (max-width: 640px) {
   .sections {
     padding: 0 10px;
   }
-.logo .logo-dark,
-.main-navigation-bg .logo .logo-dark {
-max-width: 100%;
-margin-top:-4rem;
 }
+@media only screen and (max-width: 405px) {
+  .logo .logo-dark,
+.main-navigation-bg .logo .logo-dark {
+max-width: 54%;
+margin-top: -4.7rem;
+
+}
+
 }
 
 section h2.section-heading {
